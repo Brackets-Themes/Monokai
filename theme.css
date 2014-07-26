@@ -1,0 +1,131 @@
+/*
+ * Color Scheme
+ * ============
+ *
+ * @FIXME Remove duplicated properties
+ * @TODO Mode specific declarations
+ */
+span.cm-meta                      { color: #75715E; }
+span.cm-comment                   { color: #75715E; }
+span.cm-atom                      { color: #AE81FF; }
+span.cm-number                    { color: #AE81FF; }
+
+span.cm-property,
+span.cm-attribute                 { color: #66D9EF; }
+span.cm-keyword                   { color: #66D9EF; }
+span.cm-string                    { color: #E6DB74; }
+
+span.cm-variable                  { color: #F8F8F2; }
+span.cm-variable-2                { color: #F8F8F2; }
+span.cm-variable-3                { color: #A6E22E; }
+span.cm-qualifier                 { color: #A6E22E; }
+span.cm-def                       { color: #F8F8F0; }
+span.cm-bracket                   { color: #F8F8F0; }
+span.cm-operator                  { color: #F92672; }
+span.cm-tag                       { color: #F92672; }
+span.cm-link                      { color: #AE81FF; }
+span.cm-error                     { color: #F8F8F0; background: #F92672; }
+
+
+/**
+ * User Interface
+ * ==============
+ * 
+ * @TODO Matching words
+ */
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    background: #222;
+    color: #F8F8F2;
+}
+
+div.CodeMirror-selected {
+    background: #444 !important;
+}
+
+.CodeMirror-gutters {
+    background: #272822;
+    border-right: 0px;
+}
+
+.CodeMirror-guttermarker {
+    color: #F8F8F2;
+}
+
+.CodeMirror-guttermarker-subtle {
+    color: #272822;
+}
+
+.CodeMirror-linenumber {
+    color: #8D8D8A;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #f8f8f0 !important;
+}
+
+.CodeMirror-activeline-background,
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: #373831 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #F8F8F2;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+    color: #767676;
+}
+
+.CodeMirror-matchingbracket {
+    -webkit-animation: flash-matching-token 1s;
+    background-color: transparent !important;
+    border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
+    color: #FFF !important;
+}
+
+.CodeMirror-matchingtag {
+    background-color: transparent;
+    border-bottom: 1px solid #75715E; /* text-decoration: underline does not look that well with large font sizes */
+}
+
+/* Disable animations in markdown documents */
+.doctype-markdown .CodeMirror-matchingbracket {
+    -webkit-animation: none;
+}
+
+/**
+ * Extensions
+ * ==========
+ * 
+ * @TODO Brackets-Vim (https://github.com/megalord/brackets-vim)
+ */
+
+/**
+ * Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
+ * --------------------------------------------------------------------------
+ */
+.CodeMirror .cm-dk-whitespace-space:before,
+.CodeMirror .cm-dk-whitespace-tab:before,
+.CodeMirror .cm-dk-whitespace-leading-space:before,
+.CodeMirror .cm-dk-whitespace-leading-tab:before,
+.CodeMirror .cm-dk-whitespace-trailing-space:before,
+.CodeMirror .cm-dk-whitespace-trailing-tab:before {
+    background-color: #75715E !important;
+}
+
+/**
+ * Animations
+ * ==========
+ * 
+ * @TODO Allow users to disable animations via preferences
+ */
+@-webkit-keyframes flash-matching-token {
+    from {
+        background: #A6E22E;
+    }
+
+    to {
+        background: transparent;
+    }
+}

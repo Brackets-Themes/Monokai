@@ -1,0 +1,20 @@
+{
+    "title": "Monokai",
+    "name": "monokai-theme",
+    "description": "This theme is based on the monokai color scheme from Sublime Text.",
+    "version": "0.1.0",
+    "author": "Steffen Bruchmann <hi@sbruchmann.me> (http://sbruchmann.me/)",
+    "homepage": "https://github.com/sbruchmann/brackets-theme-monokai",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sbruchmann/brackets-theme-monokai.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "theme.css",
+        "dark": true
+    }
+}
