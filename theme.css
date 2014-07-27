@@ -109,11 +109,11 @@ div.CodeMirror-selected {
  * Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
  * --------------------------------------------------------------------------
  */
-.CodeMirror .cm-dk-whitespace-space:before,
-.CodeMirror .cm-dk-whitespace-tab:before,
-.CodeMirror .cm-dk-whitespace-leading-space:before,
-.CodeMirror .cm-dk-whitespace-leading-tab:before,
-.CodeMirror .cm-dk-whitespace-trailing-space:before,
-.CodeMirror .cm-dk-whitespace-trailing-tab:before {
+.CodeMirror .cm-dk-whitespace-space::before,
+.CodeMirror .cm-dk-whitespace-tab::before,
+.CodeMirror .cm-dk-whitespace-leading-space::before,
+.CodeMirror .cm-dk-whitespace-leading-tab::before,
+.CodeMirror .cm-dk-whitespace-trailing-space::before,
+.CodeMirror .cm-dk-whitespace-trailing-tab::before {
     background-color: #75715E !important;
 }
