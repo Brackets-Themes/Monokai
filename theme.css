@@ -78,7 +78,6 @@ div.CodeMirror-selected {
 }
 
 .CodeMirror-matchingbracket {
-    -webkit-animation: flash-matching-token 1s;
     background-color: transparent !important;
     border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
     color: #FFF !important;
@@ -87,11 +86,6 @@ div.CodeMirror-selected {
 .CodeMirror-matchingtag {
     background-color: transparent;
     border-bottom: 1px solid #75715E; /* text-decoration: underline does not look that well with large font sizes */
-}
-
-/* Disable animations in markdown documents */
-.doctype-markdown .CodeMirror-matchingbracket {
-    -webkit-animation: none;
 }
 
 /**
@@ -112,20 +106,4 @@ div.CodeMirror-selected {
 .CodeMirror .cm-dk-whitespace-trailing-space:before,
 .CodeMirror .cm-dk-whitespace-trailing-tab:before {
     background-color: #75715E !important;
-}
-
-/**
- * Animations
- * ==========
- * 
- * @TODO Allow users to disable animations via preferences
- */
-@-webkit-keyframes flash-matching-token {
-    from {
-        background: #A6E22E;
-    }
-
-    to {
-        background: transparent;
-    }
 }
