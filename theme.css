@@ -39,6 +39,10 @@ span.cm-error                     { color: #F8F8F0; background: #F92672; }
     color: #F8F8F2;
 }
 
+.CodeMirror {
+    border-left-color: #1B1B1B;
+}
+
 div.CodeMirror-selected {
     background: #444 !important;
 }
