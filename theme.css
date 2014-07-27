@@ -95,9 +95,15 @@ div.CodeMirror-selected {
 /**
  * Extensions
  * ==========
- * 
- * @TODO Brackets-Vim (https://github.com/megalord/brackets-vim)
  */
+
+/*
+ * Brackets-Vim (https://github.com/megalord/brackets-vim)
+ * -------------------------------------------------------
+ */
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
+    background: rgba(248, 248, 242, 0.5) !important;
+}
 
 /**
  * Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
