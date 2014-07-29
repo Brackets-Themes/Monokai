@@ -25,6 +25,8 @@ span.cm-tag                       { color: #F92672; }
 span.cm-link                      { color: #AE81FF; }
 span.cm-error                     { color: #F8F8F0; background: #F92672; }
 
+span.cm-keyword ~ span.cm-def     { color: #A6E22E; }
+span.cm-def ~ span.cm-def         { color: #F0901F; }
 
 /**
  * User Interface
