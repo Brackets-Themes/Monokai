@@ -24,6 +24,7 @@
 .cm-tag                       { color: #F92672; }
 .cm-link                      { color: #AE81FF; }
 .cm-error                     { color: #F8F8F0; background: #F92672; }
+.cm-builtin                   { color: #A6E22E; }
 
 .cm-keyword ~ .cm-def         { color: #A6E22E; }
 .cm-def ~ .cm-def             { color: #F0901F; }
