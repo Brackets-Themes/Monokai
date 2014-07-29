@@ -4,29 +4,29 @@
  *
  * @FIXME Remove duplicated properties
  */
-span.cm-meta                      { color: #75715E; }
-span.cm-comment                   { color: #75715E; }
-span.cm-atom                      { color: #AE81FF; }
-span.cm-number                    { color: #AE81FF; }
+.cm-meta                      { color: #75715E; }
+.cm-comment                   { color: #75715E; }
+.cm-atom                      { color: #AE81FF; }
+.cm-number                    { color: #AE81FF; }
 
-span.cm-property,
-span.cm-attribute                 { color: #66D9EF; }
-span.cm-keyword                   { color: #66D9EF; }
-span.cm-string                    { color: #E6DB74; }
+.cm-property,
+.cm-attribute                 { color: #66D9EF; }
+.cm-keyword                   { color: #66D9EF; }
+.cm-string                    { color: #E6DB74; }
 
-span.cm-variable                  { color: #F8F8F2; }
-span.cm-variable-2                { color: #F8F8F2; }
-span.cm-variable-3                { color: #A6E22E; }
-span.cm-qualifier                 { color: #A6E22E; }
-span.cm-def                       { color: #F8F8F0; }
-span.cm-bracket                   { color: #F8F8F0; }
-span.cm-operator                  { color: #F92672; }
-span.cm-tag                       { color: #F92672; }
-span.cm-link                      { color: #AE81FF; }
-span.cm-error                     { color: #F8F8F0; background: #F92672; }
+.cm-variable                  { color: #F8F8F2; }
+.cm-variable-2                { color: #F8F8F2; }
+.cm-variable-3                { color: #A6E22E; }
+.cm-qualifier                 { color: #A6E22E; }
+.cm-def                       { color: #F8F8F0; }
+.cm-bracket                   { color: #F8F8F0; }
+.cm-operator                  { color: #F92672; }
+.cm-tag                       { color: #F92672; }
+.cm-link                      { color: #AE81FF; }
+.cm-error                     { color: #F8F8F0; background: #F92672; }
 
-span.cm-keyword ~ span.cm-def     { color: #A6E22E; }
-span.cm-def ~ span.cm-def         { color: #F0901F; }
+.cm-keyword ~ .cm-def         { color: #A6E22E; }
+.cm-def ~ .cm-def             { color: #F0901F; }
 
 /**
  * User Interface
