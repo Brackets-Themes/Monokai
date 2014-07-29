@@ -14,6 +14,7 @@
 .cm-keyword                   { color: #66D9EF; }
 .cm-string                    { color: #E6DB74; }
 
+.cm-string.cm-property        { color: #F8F8F2; }
 .cm-variable                  { color: #F8F8F2; }
 .cm-variable-2                { color: #F8F8F2; }
 .cm-variable-3                { color: #A6E22E; }
