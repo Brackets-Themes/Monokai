@@ -8,12 +8,9 @@
 .cm-comment                   { color: #75715E; }
 .cm-atom                      { color: #AE81FF; }
 .cm-number                    { color: #AE81FF; }
-
-.cm-property,
-.cm-attribute                 { color: #66D9EF; }
+.cm-property, .cm-attribute   { color: #66D9EF; }
 .cm-keyword                   { color: #66D9EF; }
 .cm-string                    { color: #E6DB74; }
-
 .cm-string.cm-property        { color: #F8F8F2; }
 .cm-variable                  { color: #F8F8F2; }
 .cm-variable-2                { color: #F8F8F2; }
@@ -26,7 +23,6 @@
 .cm-link                      { color: #AE81FF; }
 .cm-error                     { color: #F8F8F0; background: #F92672; }
 .cm-builtin                   { color: #A6E22E; }
-
 .cm-keyword ~ .cm-def         { color: #A6E22E; }
 .cm-def ~ .cm-def             { color: #F0901F; }
 
