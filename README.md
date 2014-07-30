@@ -3,10 +3,17 @@ Brackets Theme: Monokai
 
 This theme is based on the _monokai_ color scheme from [Sublime Text](http://sublimetext.com/).
 
-Screenshot
+Screenshots
 ---
 
-![HTML](screenshot_html.png)
+### HTML
+![HTML](screenshots/html.png)
+
+### CSS
+![HTML](screenshots/css.png)
+
+### JavaScript
+![HTML](screenshots/js.png)
 
 Installation
 ---
