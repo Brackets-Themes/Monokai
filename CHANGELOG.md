@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.1
+-----
+- [NEW] Add spacing between matching tokens and their underline
+- [CHANGE] Underline matching tags in white
+
 1.0.0
 -----
 
