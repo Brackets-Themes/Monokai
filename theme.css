@@ -95,7 +95,7 @@ div.CodeMirror-selected {
 
 .CodeMirror-matchingtag {
     background-color: transparent;
-    border-bottom: 1px solid #75715E; /* text-decoration: underline does not look that well with large font sizes */
+    border-bottom: 1px solid #F8F8F2; /* text-decoration: underline does not look that well with large font sizes */
     padding-bottom: 0.166em;
 }
 
