@@ -1,28 +1,24 @@
 /*
  * Color Scheme
  * ============
- *
- * @FIXME Remove duplicated properties
  */
-.cm-meta                      { color: #75715E; }
-.cm-comment                   { color: #75715E; }
-.cm-atom                      { color: #AE81FF; }
-.cm-number                    { color: #AE81FF; }
-.cm-property, .cm-attribute   { color: #66D9EF; }
-.cm-keyword                   { color: #66D9EF; }
-.cm-string                    { color: #E6DB74; }
-.cm-string.cm-property        { color: #F8F8F2; }
-.cm-variable                  { color: #F8F8F2; }
-.cm-variable-2                { color: #F8F8F2; }
-.cm-variable-3                { color: #A6E22E; }
-.cm-qualifier                 { color: #A6E22E; }
-.cm-def                       { color: #F8F8F0; }
-.cm-bracket                   { color: #F8F8F0; }
-.cm-operator                  { color: #F92672; }
-.cm-tag                       { color: #F92672; }
-.cm-link                      { color: #AE81FF; }
-.cm-error                     { color: #F8F8F0; background: #F92672; }
-.cm-builtin                   { color: #A6E22E; }
+.cm-string { color:#E6DB74; }
+
+.cm-error { color:#F8F8F0; background:#F92672; }
+
+.cm-meta,.cm-comment { color:#75715E; }
+
+.cm-atom,.cm-number,.cm-link { color:#AE81FF; }
+
+.cm-property,.cm-attribute,.cm-keyword { color:#66D9EF; }
+
+.cm-string.cm-property,.cm-variable,.cm-variable-2 { color:#F8F8F2; }
+
+.cm-variable-3,.cm-qualifier,.cm-builtin { color:#A6E22E; }
+
+.cm-def,.cm-bracket { color:#F8F8F0; }
+
+.cm-operator,.cm-tag { color:#F92672; }
 
 /**
  * User Interface
