@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.3
+-----
+- [NEW] Add support for code-folding (https://github.com/thehogfather/brackets-code-folding)
+
 1.0.2
 - [FIX] Increase specifity for error foreground color
 - [FIX] Incorrect foreground color value for errors
