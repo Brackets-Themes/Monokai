@@ -156,7 +156,7 @@ div.CodeMirror-selected {
  * --------------------------------------------------------------------
  */
 .CodeMirror-foldgutter, .CodeMirror-foldgutter-open, .CodeMirror-foldgutter, .CodeMirror-foldgutter-folded, .CodeMirror-foldgutter-blank {
-    color: #444;
+    color: #75715E;
 }
 
 .CodeMirror-foldgutter-open:after {
