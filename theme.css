@@ -150,3 +150,22 @@ div.CodeMirror-selected {
 .CodeMirror .cm-dk-whitespace-trailing-tab::before {
     background-color: #75715E !important;
 }
+
+/**
+ * Code Folding (https://github.com/thehogfather/brackets-code-folding)
+ * --------------------------------------------------------------------
+ */
+.CodeMirror-foldgutter, .CodeMirror-foldgutter-open, .CodeMirror-foldgutter, .CodeMirror-foldgutter-folded, .CodeMirror-foldgutter-blank {
+    color: #75715E;
+}
+
+.CodeMirror-foldgutter-open:after {
+    content: "\25bd";
+}
+
+.CodeMirror-foldmarker {
+    background-color: #333;
+    border-color: #555;
+    color: #555;
+    padding: 0px 10px 0px 10px;
+}
