@@ -8,7 +8,7 @@
 
 .cm-error {
     background: #F92672;
-    color: #F8F8F0;
+    color: #F8F8F2 !important;
 }
 
 .cm-meta,

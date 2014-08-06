@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.2
+- [FIX] Increase specifity for error foreground color
+- [FIX] Incorrect foreground color value for errors
+
 1.0.1
 -----
 - [NEW] Add spacing between matching tokens and their underline
