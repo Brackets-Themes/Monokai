@@ -3,6 +3,7 @@ Changelog
 
 1.0.4
 -----
+- [NEW] Add styles for function parameters in c-like languages
 - [FIX] Change inconsisten color value for `.cm-def` and `.cm-bracket`
 
 1.0.3
