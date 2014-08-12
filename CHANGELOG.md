@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.5
+-----
+[CHANGE] Remove styles for function parameters in c-like languages. See 8b7f11b for details.
+
 1.0.4
 -----
 - [NEW] Add styles for function parameters in c-like languages
