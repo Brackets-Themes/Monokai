@@ -50,20 +50,6 @@
     color: #F92672;
 }
 
-.cm-keyword ~ .cm-variable,
-.cm-operator ~ .cm-keyword ~ .cm-variable {
-    color: #A6E22E;
-}
-
-.cm-keyword ~ .cm-variable ~ .cm-def,
-.cm-operator ~ .cm-keyword ~ .cm-variable ~ .cm-def {
-    color: #FD971F;
-}
-
-.cm-operator ~ .cm-variable {
-    color: #F8F8F2;
-}
-
 /**
  * User Interface
  * ==============
