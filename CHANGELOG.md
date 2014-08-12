@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.4
+-----
+- [FIX] Change inconsisten color value for `.cm-def` and `.cm-bracket`
+
 1.0.3
 -----
 - [NEW] Add support for code-folding (https://github.com/thehogfather/brackets-code-folding)
