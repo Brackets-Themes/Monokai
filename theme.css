@@ -68,6 +68,7 @@
 #image-holder {
     background-color: #222;
     color: #F8F8F2;
+    transition: background-color 0.3s ease-out;
 }
 
 .CodeMirror {

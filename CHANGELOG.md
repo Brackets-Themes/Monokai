@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.6
+-----
+- [NEW] Smoothly transition the default white non-editor background to black on application startup
+
 1.0.5
 -----
 - [CHANGE] Remove styles for function parameters in c-like languages. See [8b7f11b](https://github.com/Brackets-Themes/Monokai/commit/8b7f11b81cdcf73d13a3eb5002dc978344eacbdf) for details.
