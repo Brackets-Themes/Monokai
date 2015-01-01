@@ -40,14 +40,14 @@
     color: #A6E22E;
 }
 
-.cm-def,
-.cm-bracket {
-    color: #F8F8F2;
-}
-
 .cm-operator,
 .cm-tag {
     color: #F92672;
+}
+
+.cm-def,
+.cm-bracket {
+    color: #F8F8F2;
 }
 
 /**
