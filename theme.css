@@ -45,8 +45,8 @@
     color: #F92672;
 }
 
-.cm-def,
-.cm-bracket {
+.cm-bracket,
+.cm-def {
     color: #F8F8F2;
 }
 
