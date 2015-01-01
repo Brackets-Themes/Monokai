@@ -4,6 +4,7 @@ Changelog
 1.0.7
 -----
 - [CHANGE] Use white for angle brackets in markup languages (by [@codefucker](https://github.com/codefucker))
+- [REMOVE] Removed obsolete `main.js`
 
 1.0.6
 -----
