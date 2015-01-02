@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.8
+-----
+- [CHANGE] Require Brackets 1.0.0 or higher
+- [DOCS] Update installation instructions 
+
 1.0.7
 -----
 - [CHANGE] Use white for angle brackets in markup languages (by [@codefucker](https://github.com/codefucker))
