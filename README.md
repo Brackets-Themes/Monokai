@@ -18,12 +18,13 @@ Screenshots
 Installation
 ---
 
-This extension requires Brackets Release 42 or newer.
+This extension requires Brackets Release 1.0 or newer.
 
 1. Open Brackets
-2. Open the extension manager
-3. Search for ‘Monokai’
-4. Click install
+2. Open the Extension Manager
+3. Switch to "Themes" tab
+4. Search for "Monokai"
+5. Click "Install"
 
 License
 ---

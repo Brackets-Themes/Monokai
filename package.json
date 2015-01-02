@@ -11,7 +11,7 @@
     },
     "license": "MIT",
     "engines": {
-        "brackets": ">=0.42.0"
+        "brackets": ">=1.0.0"
     },
     "theme": {
         "file": "theme.css",
