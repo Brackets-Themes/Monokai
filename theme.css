@@ -174,3 +174,8 @@ div.CodeMirror-selected {
     color: #555;
     padding: 0 10px;
 }
+
+/* yey extra stuff */
+.cm-keyword {
+    font-style: italic;
+}
